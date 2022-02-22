@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<skills>
+  <TestingFundamentals>TestTypes</TestingFundamentals>
+  <TestingFundamentals>BugReports</TestingFundamentals>
+  <TestingFundamentals>TestCases</TestingFundamentals>
+  <TestingFundamentals>CheckLists</TestingFundamentals>
+  <TestingFundamentals>TestMethods</TestingFundamentals>
+  <API>Methods</API>
+  <API>RequestStructure</API>
+  <API>ResponseCodes</API>
+  <API>JSON</API>
+  <API>XML</API>
+  <ReadLogs>Charles</ReadLogs>
+  <ReadLogs>Fidler</ReadLogs>
+  <DevTools>GC</DevTools>
+  <DevTools>FF</DevTools>
+  <MobileTesting>iOS</MobileTesting>
+  <MobileTesting>Android</MobileTesting>
+  <MobileTesting>Guidlines</MobileTesting>
+  <MobileTesting>XCode</MobileTesting>
+  <MobileTesting>AndroinStudio</MobileTesting>
+  <SQL>Create</SQL>
+  <SQL>Delete</SQL>
+  <SQL>Drop</SQL>
+  <SQL>Select</SQL>
+  <SQL>From</SQL>
+  <SQL>Where</SQL>
+  <SQL>Join</SQL>
+</skills>
+
