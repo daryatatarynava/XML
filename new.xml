@@ -1,8 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<profile>
-	<FirstName> Darya </FirstName>
-	<LastName> Tatarynava </LastName>
-	<age> 29 </age>
-	<pets_number> 1 </pets_number>
-	<desired_salary> 3000 </desired_salary>
-</profile>
+<?xml version="1.0" encoding="UTF-8" ?>
+<bug_reports>
+<bug_1>
+  <Title>An error appears while opening downloaded file</Title>
+  <Pre-condition>
+        <first_action>User is logged the system  </first_action>
+        <email>test1@gmail.com</email>
+        <password>Test12345</password>
+  </Pre-condition>
+  <StepsToReproduce>
+        <step_1> Open Account Statements tab</step_1>
+        <step_2> Download any AS with Total != 0</step_2>
+        <step_3> Open downloaded file</step_3>
+  <ActualResult> An error appears</ActualResult>
+  <ExpectedResult>File is opened successfully. No errors appear.</ExpectedResult>
+</bug_1>
+<bug_2>
+  <Title>Activation link is not received when creating a new user on the platform</Title>
+  <Pre-condition>
+        <first_action>User is logged the system by User with Account Admin role</first_action>
+        <email>test14444@gmail.com</email>
+        <password>Test12345</password>
+  </Pre-condition>
+  <StepsToReproduce>
+        <step_1> Click on My company tab </step_1>
+        <step_2> Click on Team tab </step_2>
+        <step_3> Click on Add New Member button</step_3>
+        <step_4> Fill in all fields with valid data </step_4>
+        <step_5> Click on Add Member button </step_5>
+        <step_6> Open the user email box </step_6>
+  <ActualResult> The user is created, a link isn't sent to his email. </ActualResult>
+  <ExpectedResult>The user is created, a link is sent to his email.</ExpectedResult>
+</bug_2>
+</bug_reports>
