@@ -1,3 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<note>
-</note>
+<profile>
+	<FirstName> Darya </FirstName>
+	<LastName> Tatarynava </LastName>
+	<age> 29 </age>
+	<pets_number> 1 </pets_number>
+	<desired_salary> 3000 </desired_salary>
+</profile>
